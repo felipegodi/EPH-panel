@@ -56,5 +56,4 @@ eph_panel <- arrange(eph_panel,CODUSU,NRO_HOGAR,COMPONENTE,ANO4,TRIMESTRE)
 eph_panel <- subset(eph_panel, select = -n)
 
 # Guardo el archivo en un csv
-write.csv(eph_panel,"C:\\Users\\felip\\Documents\\UdeSA\\Segundo semestre\\Pobreza II\\Trabajo\\eph_panel.csv",
-          row.names = FALSE)
+write.csv(eph_panel, row.names = FALSE)
